@@ -16,7 +16,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "build": "cross-env BABEL_ENV=production babel src -d dist",
@@ -24,7 +25,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
-    "release": "auto shipit"
+    "release": "auto shipit",
+    "chromatic": "npx chromatic --project-token 60d6aa88391c"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -63,7 +65,7 @@
     "@storybook/react": "^6.0.21",
     "auto": "^9.53.1",
     "babel-loader": "^8.1.0",
-    "chromatic": "^5.2.0",
+    "chromatic": "^5.8.0",
     "cross-env": "^7.0.2",
     "prettier": "2.1.2",
     "react-is": "^16.13.1"
