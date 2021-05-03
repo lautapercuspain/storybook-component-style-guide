@@ -26,7 +26,7 @@
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
     "release": "auto shipit",
-    "chromatic": "npx chromatic --project-token 60d6aa88391c"
+    "chromatic": "npx chromatic --project-token 60d6aa88391c --auto-accept-changes"
   },
   "eslintConfig": {
     "extends": "react-app"
